@@ -5,6 +5,6 @@ Three prompting techniques have been considered:
 - Few-shot: This approach involves feeding the LLM model high quality examples to steer its response more effectively.
 - Chain-of-Thought: In this approach, we guide the model through series of logical steps.
 
-Regarding LLM model selection, OpenAI's gpt-3.5-turbo was selected as the base model. In comparison to the base LLM,  Google's flan-t5 model was fine-tuned to the specific requirements of the project
+Regarding LLM model selection, OpenAI's `gpt-3.5-turbo` was selected as the base model. In comparison to the base LLM,  Google's `flan-t5` model was fine-tuned to the specific requirements of the project
 
-Follow through the attached jupyter notebooks to see the application of LLM for detecting whether a news article headline is clickbait or not.
+Follow through the attached jupyter notebooks to see the application of LLM for detecting whether a news article headline is clickbait or not. You can find the logged model assets, LLM prompts of the project in [Comet ML: LLM-powered-Clickbait-Detector](https://www.comet.com/projects-space#projects)
